@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.nav{
+    height: 80px;
+    background-color: yellow;
+
+    margin-bottom: 200px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: hidden;
+}
+.nav__img{
+    width: 30%;
+    max-width: 160px;
+     
+}
+
+.nav__links, .nav__buttons{
+position: absolute;
+background-color: tomato;
+bottom: 0%;
+}
