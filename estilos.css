@@ -21,12 +21,17 @@ body{
     width: 90%;
     margin: 0 auto;
     max-width: 1200px;
-    overflow: hidden;
+    overflow: hidden; 
+}
+
+.nav__logo{
+width: 30%;
+max-width: 160px; 
+
 }
 .nav__img{
     width: 30%;
-    max-width: 160px;
-     
+    display: block;
 }
 
 .nav__links, .nav__buttons{
